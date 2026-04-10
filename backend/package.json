@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "fastify": "^5.8.4",
-    "knex": "^3.2.9"
+    "knex": "^3.2.9",
+    "mysql2": "^3.21.1"
   }
 }
