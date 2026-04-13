@@ -18,3 +18,6 @@ Fiz o deletar, mas ele sempre retorna que deu certo. Perguntar pro Giovanni como
 falar que o produto já foi apagado.
 
 Fiz a lista geral de Itens.
+
+Comecei a fazer a listagem de itens por genero. Ver com os meninos sobre a rota.
+Estou achando muito grande ficar /produtos/listar-genero/genero

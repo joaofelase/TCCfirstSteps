@@ -1,4 +1,4 @@
-import { listarProdutosService } from "../services/listar-produtos.service.js";
+import { listarProdutosService } from "../../services/produtos.service/listar-produtos.service.js";
 
 /**
  * @param {import("fastify").FastifyRequest} request

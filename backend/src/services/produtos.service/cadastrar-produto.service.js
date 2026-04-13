@@ -1,4 +1,4 @@
-import { produtoRepository } from "../repositories/produtos.repository.js";
+import { produtoRepository } from "../../repositories/produtos.repository.js";
 
 
 async function cadastrarProdutoService(dados) {

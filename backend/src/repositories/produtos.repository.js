@@ -18,6 +18,12 @@ import { database } from "../configs/database.js"; //importei o database
         const lista = await database.raw(sql);
         return lista [0];
         }
+
+        static async listaPorCategoria(categoria){
+        const sql = "SELECT * FROM produto WHERE categoria = ?"
+        const lista = await database.raw(sql, [categoria]);
+        return lista[0];
+        }
     };
 
 

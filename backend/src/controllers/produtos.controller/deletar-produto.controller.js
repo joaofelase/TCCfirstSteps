@@ -1,4 +1,4 @@
-import { deletarProdutoService } from "../services/deletar-produto.service.js";
+import { deletarProdutoService } from "../../services/produtos.service/deletar-produto.service.js";
 
 /**
  * @param {import("fastify").FastifyRequest} request

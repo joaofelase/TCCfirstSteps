@@ -1,4 +1,4 @@
-import { cadastrarProdutoService } from "../services/cadastrar-produto.service.js"
+import { cadastrarProdutoService } from "../../services/produtos.service/cadastrar-produto.service.js"
 
 
 /**
