@@ -8,8 +8,8 @@ import { deletarProdutoService } from "../../services/produtos.service/deletar-p
 async function deletarProdutoController(request, reply) {
     try {
         const id = request.params.id;
-        await deletarProdutoService(id);
-        if (!id) {
+        const seTem = await deletarProdutoService(id);
+        if (!seTem) {
             return reply.status(400).send({
                 message: "ID inválido"
             });

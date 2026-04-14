@@ -19,5 +19,11 @@ falar que o produto já foi apagado.
 
 Fiz a lista geral de Itens.
 
-Comecei a fazer a listagem de itens por genero. Ver com os meninos sobre a rota.
-Estou achando muito grande ficar /produtos/listar-genero/genero
+Comecei a fazer a listagem de itens por categoria. Ver com os meninos sobre a rota.
+Estou achando muito grande ficar /produtos/listar-categoria/categoria
+
+13/04 - João
+--------------------------------
+Concluí a bomba do deletar. (giovanni ajudou lógico).
+
+

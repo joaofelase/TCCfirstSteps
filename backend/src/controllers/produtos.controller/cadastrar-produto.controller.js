@@ -16,8 +16,8 @@ async function cadastrarProdutoController(request, reply) {
                 "message": "produto enviado"
             });
         }
-        return reply.status(400).send({ //erro  400 é se a URL estiver escrito errada
-            "message": "Erro na URL"
+        return reply.status(400).send({ //erro  400 é se os dados forem ENVIADOS ERRADO NO BODY.
+            "message": "Erro de validação"
         });
 
     } catch (erro) { //problema no servidor

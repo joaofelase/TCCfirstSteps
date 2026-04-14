@@ -29,8 +29,11 @@ create table produto(
     qtd_estoque INT NOT NULL, 
     categoria VARCHAR(20),
     preco_produto decimal(7,2) NOT NULL,
+    tamanho CHAR(1),
     imagem VARCHAR(255)
 );
+
+
 
 create table pedido_produto(
     id_pedidoproduto INT auto_increment primary key, 
