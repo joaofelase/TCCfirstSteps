@@ -6,3 +6,5 @@ class NotFoundError extends Error {
 }
 
 export { NotFoundError }
+
+// por ora, código desnecessário. Estamos criando coisas no backend

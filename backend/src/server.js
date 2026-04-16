@@ -19,7 +19,7 @@ fastify.get("/health", async (request, reply) => {
 
 
 
-fastify.listen({port: 5200}, (err) => {
+fastify.listen({port: 5312}, (err) => {
     if(err){
     console.error(err);
     process.exit(1);
