@@ -20,7 +20,12 @@ create table pedido(
     valor_pedido decimal(7,2) NOT NULL,
     qtd_itens INT NOT NULL, 
     status_pedido VARCHAR(15) NOT NULL
-)
+);
+
+
+ALTER TABLE produto
+MODIFY COLUMN tamanho VARCHAR(2) NOT NULL;
+
 
 create table produto(
     id_produto INT auto_increment primary key, 
