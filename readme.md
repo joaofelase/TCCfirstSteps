@@ -26,4 +26,10 @@ Estou achando muito grande ficar /produtos/listar-categoria/categoria
 --------------------------------
 Concluí a bomba do deletar. (giovanni ajudou lógico).
 
+17/04 - João
+--------------------------------
+Muitos avanços, Giovanni não curtiu muito.
+Começando o cadastro de cliente.
+
+
 
