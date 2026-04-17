@@ -31,5 +31,6 @@ Concluí a bomba do deletar. (giovanni ajudou lógico).
 Muitos avanços, Giovanni não curtiu muito.
 Começando o cadastro de cliente.
 
-
+instalei a dependência Bcrypt, para transformar a senha em hash.
+USAR NO SERVICE
 
