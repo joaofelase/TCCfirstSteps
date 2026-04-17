@@ -1,6 +1,5 @@
 import { database } from "../configs/database.js"; //importei o database
 
-
     class produtoRepository{
         static async cadastrar(dados){
         const { id_produto, nome_produto, descricao_produto, qtd_estoque, categoria, preco_produto, tamanho, imagem }= dados;

@@ -14,6 +14,7 @@ async function produtosRoutes(fastify){
     fastify.post("/cadastrar-produto", cadastrarProdutoController)
     fastify.get("/listar-produtos", listarProdutosController)
     fastify.get("/listar-categoria/:categoria", listarPorCategoriaController)
+    
 
 };
 
